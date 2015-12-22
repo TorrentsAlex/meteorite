@@ -3,20 +3,33 @@ package com.mygdx.game;
 import box2dLight.RayHandler;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.uwsoft.editor.renderer.SceneLoader;
+import com.uwsoft.editor.renderer.scene2d.CompositeActor;
 import com.uwsoft.editor.renderer.utils.ItemWrapper;
 
-public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
+public class TurriGame extends ApplicationAdapter implements InputProcessor {
+
 
 	private SceneLoader sl;
+	// Game players
 	private Player player;
 	private PlayerLight playerLight;
+	private PlayerCircleLight playerCircleLight;
+	private PlayerCircleLight playerCircleLight2;
+
+	// Button
 	private ItemWrapper rootItem;
 	private Viewport viewport;
 
@@ -24,24 +37,37 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 	private float screenDifference;
 	private float screenChange = 0;
 
-	private RayHandler rayHandler;
+	private int gameState;
+
+	private interface GameState {
+		int RENDERING = 0;
+		int MENU = 1;
+		int GAME = 2;
+	}
 
 	@Override
 	public void create () {
 		viewport = new FitViewport(1600, 900);
+
+		// Load the scene
 		sl = new SceneLoader();
 		sl.loadScene("MainScene", viewport);
-
-		playerLight = new PlayerLight(viewport.getCamera());
-		player = new Player(sl.world, playerLight);
-
-
-
 		rootItem = new ItemWrapper(sl.getRoot());
+
+		// Game objects
+		playerLight = new PlayerLight(viewport.getCamera());
+		playerCircleLight = new PlayerCircleLight();
+		playerCircleLight2 = new PlayerCircleLight();
+		player = new Player(sl.world, playerLight, playerCircleLight, playerCircleLight2);
+
 		rootItem.getChild("player").addScript(player);
 		rootItem.getChild("playerLight").addScript(playerLight);
-		Gdx.input.setInputProcessor(this);
+		rootItem.getChild("playerCircleLight").addScript(playerCircleLight);
+		rootItem.getChild("playerCircleLight2").addScript(playerCircleLight2);
+
 		playerLight.setBody(player.getWidth(), player.getHeight());
+		Gdx.input.setInputProcessor(this);
+
 
 		screenQuarter = Gdx.graphics.getWidth() / 8;
 		screenDifference =  Gdx.graphics.getWidth() - screenQuarter;
@@ -49,11 +75,12 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 
 	@Override
 	public void render () {
-		Gdx.gl.glClearColor(0, 0, 0, 1);
+		Gdx.gl.glClearColor(0f, 0f, 0f, 1f);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		
 		sl.getEngine().update(Gdx.graphics.getDeltaTime());
 		//setCameraPosition();
-		((OrthographicCamera) viewport.getCamera()).position.set(player.getCenterX(), player.getCenterY(), 1);
+		((OrthographicCamera) viewport.getCamera()).position.set(player.getCenterX(), player.getCenterY()+Gdx.graphics.getHeight()/4, 1);
 	}
 
 	private void setCameraPosition() {
