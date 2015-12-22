@@ -74,18 +74,17 @@ public class PlayerLight implements  IScript {
 
         inter = new Interpolation.Swing(1).apply(lightObjectComponent.directionDegree, targetAngle, MathUtils.clamp(5 / .5f, 0, 1));
         angle =  inter * rad;
-        Gdx.app.log("light","angle :"+ angle);
 
         if (flipped) {
             if (angle > 105 || angle < -105) {
                 lightObjectComponent.directionDegree = angle;
             }
-            xPosition = x;
+            xPosition = x+15;
         } else {
             if (angle < 76 && angle > -76) {
                 lightObjectComponent.directionDegree = angle;
             }
-            xPosition = x+parentWidth;
+            xPosition = x+parentWidth-15;
         }
 
         // reset the light if flip the image

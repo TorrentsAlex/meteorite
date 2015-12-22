@@ -35,11 +35,15 @@ public class Player implements IScript {
     private float velocity = 0;
     private final float jumpSpeed = 15f;
     private boolean landed = false;
-    PlayerLight light;
+    private PlayerLight light;
+    private PlayerCircleLight playerCircleLight;
+    private PlayerCircleLight playerCircleLight2;
 
-    public Player(World world, PlayerLight light) {
+    public Player(World world, PlayerLight light, PlayerCircleLight playerCircleLight,PlayerCircleLight playerCircleLight2) {
         this.world = world;
         this.light = light;
+        this.playerCircleLight = playerCircleLight;
+        this.playerCircleLight2 = playerCircleLight2;
     }
 
     @Override
@@ -55,7 +59,7 @@ public class Player implements IScript {
     @Override
     public void act(float delta) {
         float diff = 0;
-        boolean lightFlipped = false;
+        boolean lightFlipped;
 
         if (Gdx.input.isKeyPressed(Input.Keys.A)) {
             diff = -speed * delta;
@@ -88,6 +92,8 @@ public class Player implements IScript {
         }
 
         light.setPosition(transformComponent.x, transformComponent.y, lightFlipped);
+        playerCircleLight.setPosition(getCenterX(),getCenterY());
+        playerCircleLight2.setPosition(getCenterX(), getCenterY());
     }
 
     @Override
