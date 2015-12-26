@@ -13,28 +13,28 @@ repeat: none
   index: -1
 FloatingPlatform0000Layer-1
   rotate: false
-  xy: 498, 29
+  xy: 1659, 621
   size: 58, 29
   orig: 58, 29
   offset: 0, 0
   index: -1
 FloatingPlatform0001Layer-2
   rotate: false
-  xy: 1168, 275
+  xy: 96, 9
   size: 38, 17
   orig: 38, 17
   offset: 0, 0
   index: -1
 meteorite0018Layer-19
   rotate: false
-  xy: 1168, 275
+  xy: 96, 9
   size: 38, 17
   orig: 38, 17
   offset: 0, 0
   index: -1
 FloatingPlatform0002Layer-3
   rotate: false
-  xy: 1369, 6
+  xy: 2, 4
   size: 92, 22
   orig: 92, 22
   offset: 0, 0
@@ -48,7 +48,7 @@ FloatingPlatform0003Layer-0
   index: -1
 Plant2Green
   rotate: false
-  xy: 1390, 130
+  xy: 1402, 489
   size: 56, 134
   orig: 56, 134
   offset: 0, 0
@@ -69,441 +69,385 @@ PlataformVerticalGreen
   index: -1
 Seta2Green
   rotate: false
-  xy: 1369, 30
+  xy: 1656, 720
   size: 92, 98
   orig: 92, 98
   offset: 0, 0
   index: -1
-ashley
-  rotate: false
-  xy: 859, 294
-  size: 360, 126
-  orig: 360, 126
-  offset: 0, 0
-  index: -1
 barrack
   rotate: false
-  xy: 1821, 627
+  xy: 1464, 607
   size: 150, 90
   orig: 150, 90
   offset: 0, 0
   index: -1
-black
-  rotate: false
-  xy: 1221, 797
-  size: 313, 225
-  orig: 313, 225
-  offset: 0, 0
-  index: -1
 cabinNight
   rotate: false
-  xy: 1695, 508
+  xy: 1460, 507
   size: 135, 98
   orig: 135, 98
   offset: 0, 0
   index: -1
 car
   rotate: false
-  xy: 1802, 412
+  xy: 1950, 859
   size: 95, 70
   orig: 95, 70
   offset: 0, 0
   index: -1
 cloud1Night
   rotate: false
-  xy: 1694, 438
+  xy: 1210, 317
   size: 106, 68
   orig: 106, 68
   offset: 0, 0
   index: -1
 cloud2Night
   rotate: false
-  xy: 440, 23
+  xy: 194, 2
   size: 56, 35
   orig: 56, 35
   offset: 0, 0
   index: -1
 fire
   rotate: false
-  xy: 1887, 871
+  xy: 826, 27
   size: 159, 151
   orig: 159, 151
   offset: 0, 0
   index: -1
 glow
   rotate: false
-  xy: 498, 2
+  xy: 1371, 424
   size: 25, 25
   orig: 25, 25
   offset: 0, 0
   index: -1
 goldenSheep
   rotate: false
-  xy: 1749, 396
+  xy: 1402, 447
   size: 49, 40
   orig: 49, 40
   offset: 0, 0
   index: -1
 groundGrass
   rotate: false
-  xy: 1469, 531
+  xy: 859, 180
   size: 224, 61
   orig: 224, 61
   offset: 0, 0
   index: -1
 heli
   rotate: false
-  xy: 1443, 279
+  xy: 604, 2
   size: 136, 65
   orig: 136, 65
   offset: 0, 0
   index: -1
 hill1
   rotate: false
-  xy: 1464, 410
+  xy: 1464, 699
   size: 183, 58
   orig: 183, 58
   offset: 0, 0
   index: -1
 hill1Night
   rotate: false
-  xy: 1464, 470
+  xy: 1469, 759
   size: 185, 59
   orig: 185, 59
   offset: 0, 0
   index: -1
 hill2Night
   rotate: false
-  xy: 1536, 768
+  xy: 1469, 883
   size: 308, 139
   orig: 308, 139
   offset: 0, 0
   index: -1
 hill3Night
   rotate: false
-  xy: 1536, 909
+  xy: 859, 307
   size: 349, 113
   orig: 349, 113
   offset: 0, 0
   index: -1
 hill4Night
   rotate: false
-  xy: 847, 74
+  xy: 859, 243
   size: 298, 62
   orig: 298, 62
   offset: 0, 0
   index: -1
 hill5Night
   rotate: false
-  xy: 847, 11
+  xy: 1469, 820
   size: 277, 61
   orig: 277, 61
   offset: 0, 0
   index: -1
 lamp1
   rotate: false
-  xy: 1899, 411
+  xy: 1639, 545
   size: 23, 71
   orig: 23, 71
   offset: 0, 0
   index: -1
-libgdxlogo
-  rotate: false
-  xy: 859, 138
-  size: 307, 154
-  orig: 307, 154
-  offset: 0, 0
-  index: -1
-logo
-  rotate: false
-  xy: 1448, 182
-  size: 96, 95
-  orig: 96, 95
-  offset: 0, 0
-  index: -1
 meteorite0000Layer-1
   rotate: false
-  xy: 295, 3
+  xy: 1085, 186
   size: 95, 55
   orig: 95, 55
   offset: 0, 0
   index: -1
 meteorite0001Layer-2
   rotate: false
-  xy: 1596, 24
+  xy: 1664, 532
   size: 38, 43
   orig: 38, 43
   offset: 0, 0
   index: -1
 meteorite0002Layer-3
   rotate: false
-  xy: 1581, 307
+  xy: 803, 30
   size: 20, 37
   orig: 20, 37
   offset: 0, 0
   index: -1
 meteorite0003Layer-4
   rotate: false
-  xy: 81, 2
+  xy: 136, 2
   size: 12, 24
   orig: 12, 24
   offset: 0, 0
   index: -1
 meteorite0004Layer-5
   rotate: false
-  xy: 1821, 731
+  xy: 252, 2
   size: 23, 35
   orig: 23, 35
   offset: 0, 0
   index: -1
 meteorite0005Layer-6
   rotate: false
-  xy: 392, 6
+  xy: 1159, 253
   size: 46, 52
   orig: 46, 52
   offset: 0, 0
   index: -1
 meteorite0006Layer-7
   rotate: false
-  xy: 1846, 884
+  xy: 863, 2
   size: 23, 23
   orig: 23, 23
   offset: 0, 0
   index: -1
 meteorite0007Layer-8
   rotate: false
-  xy: 440, 2
+  xy: 273, 39
   size: 38, 19
   orig: 38, 19
   offset: 0, 0
   index: -1
 meteorite0008Layer-9
   rotate: false
-  xy: 2012, 545
+  xy: 1597, 507
   size: 19, 98
   orig: 19, 98
   offset: 0, 0
   index: -1
 meteorite0009Layer-10
   rotate: false
-  xy: 1126, 27
+  xy: 1618, 516
   size: 19, 21
   orig: 19, 21
   offset: 0, 0
   index: -1
 meteorite0010Layer-11
   rotate: false
-  xy: 1651, 450
+  xy: 1616, 618
   size: 41, 79
   orig: 41, 79
   offset: 0, 0
   index: -1
 meteorite0011Layer-12
   rotate: false
-  xy: 1546, 162
+  xy: 1930, 742
   size: 58, 115
   orig: 58, 115
   offset: 0, 0
   index: -1
 meteorite0012Layer-13
   rotate: false
-  xy: 2012, 466
+  xy: 1618, 539
   size: 19, 77
   orig: 19, 77
   offset: 0, 0
   index: -1
 meteorite0012Layer-13 - copia
   rotate: false
-  xy: 2, 7
+  xy: 194, 39
   size: 77, 19
   orig: 77, 19
   offset: 0, 0
   index: -1
 meteorite0013Layer-14
   rotate: false
-  xy: 1469, 772
+  xy: 803, 2
   size: 58, 23
   orig: 58, 23
   offset: 0, 0
   index: -1
 meteorite0014Layer-15
   rotate: false
-  xy: 1126, 50
+  xy: 888, 3
   size: 19, 22
   orig: 19, 22
   offset: 0, 0
   index: -1
 meteorite0015Layer-16
   rotate: false
-  xy: 1998, 752
+  xy: 1990, 740
   size: 38, 117
   orig: 38, 117
   offset: 0, 0
   index: -1
 meteorite0016Layer-17
   rotate: false
-  xy: 1463, 77
+  xy: 1139, 81
   size: 70, 103
   orig: 70, 103
   offset: 0, 0
   index: -1
-meteorite0017Layer-18
-  rotate: false
-  xy: 1147, 2
-  size: 220, 130
-  orig: 220, 130
-  offset: 0, 0
-  index: -1
-meteorite0017Layer-18 - copia
-  rotate: false
-  xy: 1221, 266
-  size: 220, 130
-  orig: 220, 130
-  offset: 0, 0
-  index: -1
 meteorite0017Layer-18 - photoshopped
   rotate: false
-  xy: 1168, 134
+  xy: 604, 69
   size: 220, 130
   orig: 220, 130
   offset: 0, 0
   index: -1
 meteorite0019Layer-20
   rotate: false
-  xy: 1448, 142
+  xy: 1731, 680
   size: 13, 38
   orig: 13, 38
   offset: 0, 0
   index: -1
-meteorite0020Layer-21
-  rotate: false
-  xy: 604, 34
-  size: 241, 165
-  orig: 241, 165
-  offset: 0, 0
-  index: -1
 meteorite0020Layer-21 - copia
   rotate: false
-  xy: 1221, 398
+  xy: 1221, 625
   size: 241, 165
   orig: 241, 165
   offset: 0, 0
   index: -1
 miniPond
   rotate: false
-  xy: 558, 41
+  xy: 1930, 723
   size: 44, 17
   orig: 44, 17
   offset: 0, 0
   index: -1
 ninja
   rotate: false
-  xy: 1973, 645
+  xy: 1139, 7
   size: 73, 72
   orig: 73, 72
   offset: 0, 0
   index: -1
 rainDrop
   rotate: false
-  xy: 2038, 852
+  xy: 1649, 701
   size: 8, 17
   orig: 8, 17
   offset: 0, 0
   index: -1
 sheep
   rotate: false
-  xy: 1699, 394
+  xy: 1664, 577
   size: 48, 42
   orig: 48, 42
   offset: 0, 0
   index: -1
-startGameBtn
-  rotate: false
-  xy: 194, 7
-  size: 99, 51
-  orig: 99, 51
-  offset: 0, 0
-  index: -1
 texturered
   rotate: false
-  xy: 1846, 719
+  xy: 987, 28
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 tree3
   rotate: false
-  xy: 1469, 594
+  xy: 1221, 451
   size: 179, 172
   orig: 179, 172
   offset: 0, 0
   index: -1
 treeBack1
   rotate: false
-  xy: 1535, 69
+  xy: 1950, 931
   size: 96, 91
   orig: 96, 91
   offset: 0, 0
   index: -1
 treeFront1
   rotate: false
-  xy: 1650, 608
+  xy: 1779, 864
   size: 169, 158
   orig: 169, 158
   offset: 0, 0
   index: -1
 treeFront2
   rotate: false
-  xy: 1221, 565
+  xy: 1221, 792
   size: 246, 230
   orig: 246, 230
   offset: 0, 0
   index: -1
 treeback2
   rotate: false
-  xy: 1463, 9
+  xy: 1659, 652
   size: 70, 66
   orig: 70, 66
   offset: 0, 0
   index: -1
 ufocrash
   rotate: false
-  xy: 1464, 346
+  xy: 1221, 387
   size: 148, 62
   orig: 148, 62
   offset: 0, 0
   index: -1
 watertower
   rotate: false
-  xy: 1925, 485
+  xy: 1843, 722
   size: 85, 140
   orig: 85, 140
   offset: 0, 0
   index: -1
 windMain
   rotate: false
-  xy: 1443, 346
+  xy: 2030, 807
   size: 14, 50
   orig: 14, 50
   offset: 0, 0
   index: -1
 windRotor
   rotate: false
-  xy: 1535, 10
+  xy: 742, 10
   size: 59, 57
   orig: 59, 57
   offset: 0, 0
   index: -1
 windmillMain
   rotate: false
-  xy: 1832, 484
+  xy: 1750, 721
   size: 91, 141
   orig: 91, 141
   offset: 0, 0
   index: -1
 windmillRotating
   rotate: false
-  xy: 1614, 324
+  xy: 1318, 301
   size: 83, 84
   orig: 83, 84
   offset: 0, 0
