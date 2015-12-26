@@ -37,13 +37,11 @@ public class Player implements IScript {
     private boolean landed = false;
     private PlayerLight light;
     private PlayerCircleLight playerCircleLight;
-    private PlayerCircleLight playerCircleLight2;
 
-    public Player(World world, PlayerLight light, PlayerCircleLight playerCircleLight,PlayerCircleLight playerCircleLight2) {
+    public Player(World world, PlayerLight light, PlayerCircleLight playerCircleLight) {
         this.world = world;
         this.light = light;
         this.playerCircleLight = playerCircleLight;
-        this.playerCircleLight2 = playerCircleLight2;
     }
 
     @Override
@@ -93,7 +91,6 @@ public class Player implements IScript {
 
         light.setPosition(transformComponent.x, transformComponent.y, lightFlipped);
         playerCircleLight.setPosition(getCenterX(),getCenterY());
-        playerCircleLight2.setPosition(getCenterX(), getCenterY());
     }
 
     @Override
